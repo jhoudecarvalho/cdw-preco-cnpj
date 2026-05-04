@@ -3,7 +3,7 @@
  * Plugin Name:       CDW Preço CNPJ
  * Plugin URI:        https://www.cdw.com.br
  * Description:       Cadastro CPF/CNPJ na Minha conta e preços diferenciados para clientes CNPJ. Complementar ao Brazilian Market (Extra Checkout Fields for Brazil).
- * Version:           1.3.0
+ * Version:           1.3.1
  * Author:             CDW
  * Author URI:         https://www.cdw.com.br
  * Text Domain:       wc-smart-registration-pricing
@@ -56,7 +56,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	}
 } )();
 
-define( 'WSRP_VERSION', '1.3.0' );
+define( 'WSRP_VERSION', '1.3.1' );
 define( 'WSRP_PLUGIN_FILE', __FILE__ );
 define( 'WSRP_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'WSRP_PLUGIN_URL', plugin_dir_url( __FILE__ ) );

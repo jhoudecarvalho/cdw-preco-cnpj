@@ -2,6 +2,12 @@
 
 Todas as alterações relevantes deste plugin são documentadas neste arquivo. O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) e o versionamento segue [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
+## [1.3.1] — 2026-05-04
+
+### Notas
+
+- Release operacional para validar o pipeline end-to-end após o ajuste do secret `DEPLOY_REMOTE_PATH` no GitHub Actions (apontava para `cdw-preco-cnpj/` — nome do repo — em vez de `wc-smart-registration-pricing/` — slug do plugin). Sem mudanças funcionais em relação à 1.3.0.
+
 ## [1.3.0] — 2026-05-04
 
 ### Adicionado
