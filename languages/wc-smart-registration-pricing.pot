@@ -1,0 +1,321 @@
+# Copyright (C) 2026 CDW
+# This file is distributed under the same license as the CDW Preço CNPJ plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: CDW Preço CNPJ 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-smart-registration-pricing\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-04-17T15:57:06+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wc-smart-registration-pricing\n"
+
+#. Plugin Name of the plugin
+#: wc-smart-registration-pricing.php
+#: includes/class-admin-settings.php:72
+#: includes/class-admin-settings.php:73
+#: includes/class-admin-settings.php:250
+msgid "CDW Preço CNPJ"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: wc-smart-registration-pricing.php
+msgid "https://www.cdw.com.br"
+msgstr ""
+
+#. Description of the plugin
+#: wc-smart-registration-pricing.php
+msgid "Cadastro CPF/CNPJ na Minha conta e preços diferenciados para clientes CNPJ. Complementar ao Brazilian Market (Extra Checkout Fields for Brazil)."
+msgstr ""
+
+#. Author of the plugin
+#: wc-smart-registration-pricing.php
+msgid "CDW"
+msgstr ""
+
+#: includes/class-admin-settings.php:133
+#: includes/class-admin-settings.php:172
+msgid "Permissão negada."
+msgstr ""
+
+#: includes/class-admin-settings.php:182
+msgid "Não foi possível gerar o arquivo."
+msgstr ""
+
+#: includes/class-admin-settings.php:189
+#: includes/class-admin-settings.php:464
+msgid "Nome"
+msgstr ""
+
+#: includes/class-admin-settings.php:190
+#: includes/class-admin-settings.php:465
+#: includes/class-registration-fields.php:89
+msgid "CNPJ"
+msgstr ""
+
+#: includes/class-admin-settings.php:191
+#: includes/class-admin-settings.php:466
+msgid "E-mail"
+msgstr ""
+
+#: includes/class-admin-settings.php:192
+#: includes/class-admin-settings.php:467
+msgid "Data de cadastro"
+msgstr ""
+
+#: includes/class-admin-settings.php:193
+#: includes/class-admin-settings.php:468
+msgid "Desconto aplicado"
+msgstr ""
+
+#: includes/class-admin-settings.php:252
+msgid "Configurações gerais"
+msgstr ""
+
+#: includes/class-admin-settings.php:253
+msgid "Desconto global CNPJ"
+msgstr ""
+
+#: includes/class-admin-settings.php:254
+msgid "Desconto por categoria"
+msgstr ""
+
+#: includes/class-admin-settings.php:255
+msgid "Usuários CNPJ"
+msgstr ""
+
+#: includes/class-admin-settings.php:259
+msgid "Configurações salvas."
+msgstr ""
+
+#: includes/class-admin-settings.php:292
+msgid "Módulo de cadastro"
+msgstr ""
+
+#: includes/class-admin-settings.php:296
+msgid "Ativar campos de CPF/CNPJ no cadastro da conta"
+msgstr ""
+
+#: includes/class-admin-settings.php:299
+msgid "Requer o plugin Brazilian Market ativo; caso contrário o cadastro inteligente não será exibido."
+msgstr ""
+
+#: includes/class-admin-settings.php:304
+msgid "Módulo de preços CNPJ"
+msgstr ""
+
+#: includes/class-admin-settings.php:308
+msgid "Ativar preços diferenciados para clientes CNPJ"
+msgstr ""
+
+#: includes/class-admin-settings.php:313
+msgid "Texto abaixo do CPF/CNPJ"
+msgstr ""
+
+#: includes/class-admin-settings.php:319
+#: includes/class-admin-settings.php:361
+msgid "Salvar alterações"
+msgstr ""
+
+#: includes/class-admin-settings.php:336
+msgid "Ativar desconto global"
+msgstr ""
+
+#: includes/class-admin-settings.php:340
+msgid "Aplicar desconto global quando não houver regra de categoria"
+msgstr ""
+
+#: includes/class-admin-settings.php:345
+msgid "Tipo de desconto"
+msgstr ""
+
+#: includes/class-admin-settings.php:348
+msgid "Percentual (%)"
+msgstr ""
+
+#: includes/class-admin-settings.php:349
+msgid "Valor fixo (R$)"
+msgstr ""
+
+#: includes/class-admin-settings.php:354
+msgid "Percentual ou valor fixo"
+msgstr ""
+
+#: includes/class-admin-settings.php:357
+msgid "Percentual sobre o preço de varejo ou valor fixo em moeda da loja, conforme o tipo selecionado."
+msgstr ""
+
+#: includes/class-admin-settings.php:384
+msgid "Regras por categoria substituem o desconto global para produtos daquela categoria. Se o produto estiver em várias categorias com regra, prevalece o maior benefício (menor preço final)."
+msgstr ""
+
+#: includes/class-admin-settings.php:388
+msgid "Categoria"
+msgstr ""
+
+#: includes/class-admin-settings.php:389
+msgid "Ativo"
+msgstr ""
+
+#: includes/class-admin-settings.php:390
+msgid "Tipo"
+msgstr ""
+
+#: includes/class-admin-settings.php:391
+msgid "Valor"
+msgstr ""
+
+#: includes/class-admin-settings.php:397
+msgid "Nenhuma categoria encontrada."
+msgstr ""
+
+#: includes/class-admin-settings.php:413
+msgid "%"
+msgstr ""
+
+#: includes/class-admin-settings.php:414
+msgid "R$"
+msgstr ""
+
+#: includes/class-admin-settings.php:428
+msgid "Salvar regras por categoria"
+msgstr ""
+
+#: includes/class-admin-settings.php:459
+msgid "Exportar CSV"
+msgstr ""
+
+#: includes/class-admin-settings.php:474
+msgid "Nenhum usuário CNPJ encontrado."
+msgstr ""
+
+#: includes/class-pricing-rules.php:335
+#: includes/class-pricing-rules.php:394
+msgid "Preço de varejo"
+msgstr ""
+
+#: includes/class-pricing-rules.php:339
+#: includes/class-pricing-rules.php:398
+msgid "Preço CNPJ"
+msgstr ""
+
+#: includes/class-pricing-rules.php:419
+#: includes/class-pricing-rules.php:448
+msgid "Benefício preço CNPJ (referência)"
+msgstr ""
+
+#: includes/class-pricing-rules.php:420
+msgid "Benefício preço CNPJ"
+msgstr ""
+
+#. translators: %s: valor economizado formatado
+#: includes/class-pricing-rules.php:425
+#: includes/class-pricing-rules.php:453
+#, php-format
+msgid "Economia em relação ao preço de varejo: %s"
+msgstr ""
+
+#: includes/class-registration-fields.php:84
+#: templates/registration-fields.php:26
+msgid "CPF ou CNPJ"
+msgstr ""
+
+#: includes/class-registration-fields.php:85
+#: templates/registration-fields.php:35
+msgid "Nome completo"
+msgstr ""
+
+#: includes/class-registration-fields.php:86
+#: templates/registration-fields.php:40
+msgid "Nome da empresa"
+msgstr ""
+
+#: includes/class-registration-fields.php:87
+#: templates/registration-fields.php:45
+msgid "Inscrição Estadual"
+msgstr ""
+
+#: includes/class-registration-fields.php:88
+msgid "CPF"
+msgstr ""
+
+#: includes/class-registration-fields.php:120
+msgid "Falha de segurança no cadastro. Atualize a página e tente novamente."
+msgstr ""
+
+#: includes/class-registration-fields.php:126
+msgid "Selecione CPF ou CNPJ válido."
+msgstr ""
+
+#: includes/class-registration-fields.php:135
+msgid "CPF deve conter 11 dígitos."
+msgstr ""
+
+#: includes/class-registration-fields.php:137
+msgid "CPF inválido."
+msgstr ""
+
+#: includes/class-registration-fields.php:139
+msgid "Este CPF já está cadastrado."
+msgstr ""
+
+#: includes/class-registration-fields.php:143
+msgid "Informe o nome completo."
+msgstr ""
+
+#: includes/class-registration-fields.php:147
+msgid "CNPJ deve conter 14 dígitos."
+msgstr ""
+
+#: includes/class-registration-fields.php:149
+msgid "CNPJ inválido."
+msgstr ""
+
+#: includes/class-registration-fields.php:151
+msgid "Este CNPJ já está cadastrado."
+msgstr ""
+
+#: includes/class-registration-fields.php:155
+msgid "Informe o nome da empresa."
+msgstr ""
+
+#: includes/class-registration-fields.php:159
+msgid "Inscrição estadual inválida. Use apenas números ou ISENTO."
+msgstr ""
+
+#. translators: %s: valor monetário
+#: includes/class-user-meta.php:296
+#, php-format
+msgid "Global: R$ %s"
+msgstr ""
+
+#. translators: %s: percentual
+#: includes/class-user-meta.php:302
+#, php-format
+msgid "Global: %s%%"
+msgstr ""
+
+#: includes/class-user-meta.php:308
+msgid "Regras por categoria"
+msgstr ""
+
+#: includes/class-user-meta.php:311
+msgid "Nenhum desconto ativo"
+msgstr ""
+
+#: wc-smart-registration-pricing.php:93
+msgid "Configurações"
+msgstr ""
+
+#: wc-smart-registration-pricing.php:109
+msgid "CDW Preço CNPJ requer o WooCommerce ativo."
+msgstr ""
+
+#: wc-smart-registration-pricing.php:152
+msgid "CDW Preço CNPJ: o plugin WooCommerce Extra Checkout Fields for Brazil (Brazilian Market) não está ativo. O módulo de cadastro com CPF/CNPJ foi desativado; o módulo de preços CNPJ permanece disponível."
+msgstr ""

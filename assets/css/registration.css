@@ -1,0 +1,59 @@
+/* Campos extras de cadastro */
+.wsrp-registration-fields {
+	margin-bottom: 1em;
+}
+
+.wsrp-helper-text {
+	font-size: 0.9em;
+	color: #555;
+}
+
+/* Bloco preço varejo + CNPJ (vitrine) */
+.wsrp-cnpj-price-block {
+	display: block;
+	line-height: 1.4;
+	margin-bottom: 0.75em;
+}
+
+/* Espaço antes do WC Simulador de Parcelas quando o bloco CNPJ é injetado antes dele */
+.wsrp-cnpj-price-block + .wcsp-container,
+.wsrp-cnpj-price-block + span.wcsp-container {
+	display: block;
+	margin-top: 0;
+}
+
+.wsrp-cnpj-price-block .wsrp-price-line {
+	display: block;
+	margin-bottom: 0.35em;
+}
+
+.wsrp-cnpj-price-block .wsrp-price-label {
+	display: inline-block;
+	font-size: 0.8em;
+	font-weight: 600;
+	color: #555;
+	margin-right: 0.25em;
+}
+
+.wsrp-cnpj-price-block .wsrp-price-line--cnpj .wsrp-price-label {
+	color: #1d6b2f;
+}
+
+.wsrp-cnpj-price-block del.wsrp-price-original {
+	opacity: 0.85;
+}
+
+.wsrp-cnpj-price-block ins.wsrp-price-cnpj-value {
+	text-decoration: none;
+	font-weight: 700;
+	color: #1d6b2f;
+}
+
+.wsrp-admin-wrap .wsrp-cnpj-savings-row th {
+	font-weight: 600;
+}
+
+.woocommerce-cart .wsrp-cnpj-savings-row td,
+.woocommerce-checkout .wsrp-cnpj-savings-row td {
+	color: #2e7d32;
+}

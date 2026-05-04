@@ -1,0 +1,14 @@
+{
+    "name": "cdw/wc-smart-registration-pricing",
+    "description": "Cadastro CPF/CNPJ na Minha Conta e preços diferenciados para clientes CNPJ no WooCommerce.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.0",
+        "yahnis-elsts/plugin-update-checker": "^5.0"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
